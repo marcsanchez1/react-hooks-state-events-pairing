@@ -7,6 +7,22 @@ body {
   -moz-osx-font-smoothing: grayscale;
 }
 
+li {
+  list-style: none;
+  margin-bottom: 15px;
+}
+
 .App {
   text-align: center;
 }
+
+.button {
+  margin: 10px 3px;
+}
+
+.container {
+   width: 60%;
+   margin: auto;
+   text-align: center;
+}
+

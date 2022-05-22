@@ -1,18 +1,13 @@
 import video from "../data/video.js";
+import '../../src/index.css';
+import Video from "./Video.js";
+import VideoList from "./VideoList.js";
 
-function App() {
-  console.log("Here's your data:", video);
+function App(props) {
 
   return (
     <div className="App">
-      <iframe
-        width="919"
-        height="525"
-        src="https://www.youtube.com/embed/dQw4w9WgXcQ"
-        frameBorder="0"
-        allowFullScreen
-        title="Thinking in React"
-      />
+      <VideoList video={video} />
     </div>
   );
 }
